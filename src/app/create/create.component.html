@@ -1,0 +1,24 @@
+<label style="color:blue;"> <strong>Titel des Films</strong></label>
+<input class="form-control mt-1 mb-3" type="text" placeholder="Gib den Filmtitel ein..." [(ngModel)]="movie.title">
+<label style="color:blue;"><strong>Erscheinungsjahr</strong></label>
+<input class="form-control mb-3" type="number" placeholder="Gib das Erscheinungsjahr des Films ein..." [(ngModel)]="movie.year">
+<label style="color:blue;"><strong>Bild-URL</strong> (optional)</label>
+<input class="form-control mb-3" type="text" placeholder="Gib die Bild-URL des Films ein..." [(ngModel)]="movie.imgUrl">
+
+<div class="form-check form-switch">
+    <input class="form-check-input" mb-3 type="checkbox" role="switch" id="switchCheckDefault" [(ngModel)]="movie.watched">
+    <label class="form-check-label" for="switchCheckDefault">Ich habe den Film bereits gesehen</label>
+</div>
+<br>
+
+<p>Du kannst die Bewertung später bearbeiten.</p>
+
+<button class="btn btn-success btn-lg me-4" (click)="create()">
+    <i class="bi bi-floppy2"></i>
+    Speichern
+</button>
+
+<button class="btn btn-outline-danger btn-lg" routerLink="/list">
+    <i class="bi bi-x-octagon"></i>
+    Abbrechen
+</button>

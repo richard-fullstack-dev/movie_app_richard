@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-md bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/list">
+            <i class="bi bi-camera-reels"></i> Movie watchlist
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/list">
+                        <i class="bi bi-camera-video"></i> Filme</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/create">
+                        <i class="bi bi-plus-circle"></i> Neuer Film</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="mx-5 my-3">
+    <router-outlet></router-outlet>
+</div>

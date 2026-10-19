@@ -1,0 +1,22 @@
+.navbar-brand{
+    color: blue;
+}
+
+.nav-link {
+  transition: all 0.2s ease-in-out;
+  border-radius: 6px;
+  padding: 6px 12px !important;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
+  color: #0d6efd !important;
+}
+
+.navbar-brand {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}

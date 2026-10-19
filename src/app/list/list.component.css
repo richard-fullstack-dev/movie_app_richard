@@ -1,0 +1,20 @@
+.text-bg-light {
+    font-weight: normal !important;
+}
+
+.text-bg-success {
+    background-color: rgb(226, 255, 224) !important;
+    color: rgb(48, 143, 27) !important;
+    border: 1px solid rgb(48, 143, 27) !important;
+}
+
+.text-bg-warning {
+    background-color: rgb(255, 249, 216) !important;
+    color: rgb(238, 154, 44) !important;
+    border: 1px solid rgb(238, 154, 44) !important;
+}
+.movie-img {
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
